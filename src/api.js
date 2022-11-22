@@ -20,7 +20,7 @@ const useFetchWeather = () => {
         }
 
         setLoading(true);
-        return fetch(`http://api.openweathermap.org/data/2.5/weather?units=metric&q=${city}&APPID=${APP_ID}`)
+        return fetch(`https://api.openweathermap.org/data/2.5/weather?units=metric&q=${city}&APPID=${APP_ID}`)
             .then(data => {
                 if (data.ok) {
                     return data.json();
