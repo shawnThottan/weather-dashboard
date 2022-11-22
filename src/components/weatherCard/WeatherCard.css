@@ -1,0 +1,40 @@
+#weather-card {
+    min-width: 15rem;
+    width: 100%;
+    height: 20rem;
+    border: none;
+    color: var(--secondary-text);
+    background-color: var(--primary-bg);
+    backdrop-filter: blur(10px);
+    border-radius: 30px;
+}
+
+.title {
+    width: 70%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: var(--primary-text);
+}
+
+.top-right {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+.bottom-right {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+.form-control {
+    background-color: var(--logo) !important;
+}
